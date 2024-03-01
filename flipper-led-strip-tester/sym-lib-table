@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "flipper-zen-rescue")(type "KiCad")(uri "${KIPRJMOD}/flipper-zen-rescue.kicad_sym")(options "")(descr ""))
+)

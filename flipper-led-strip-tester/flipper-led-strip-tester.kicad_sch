@@ -1,0 +1,5032 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d550d0b5-85c6-4690-b276-37dbc5befd90")
+	(paper "A4")
+	(lib_symbols
+		(symbol "flipper-zen-rescue:FlipperZero-lomalkin_kicad_symbols"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "lomalkin_kicad_symbols_FlipperZero"
+				(at 0 27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "FlipperZero"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FlipperZero-lomalkin_kicad_symbols_0_1"
+				(rectangle
+					(start 7.62 26.67)
+					(end -8.89 -24.13)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "FlipperZero-lomalkin_kicad_symbols_1_1"
+				(pin input line
+					(at 10.16 24.13 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -8.89 180)
+					(length 2.54)
+					(name "UART_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -11.43 180)
+					(length 2.54)
+					(name "UART_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -13.97 180)
+					(length 2.54)
+					(name "PC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -16.51 180)
+					(length 2.54)
+					(name "PC0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -19.05 180)
+					(length 2.54)
+					(name "PB14_(1W)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -21.59 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 21.59 180)
+					(length 2.54)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 19.05 180)
+					(length 2.54)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 16.51 180)
+					(length 2.54)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 13.97 180)
+					(length 2.54)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 11.43 180)
+					(length 2.54)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 8.89 180)
+					(length 2.54)
+					(name "PC3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "flipper-zen-rescue:GND-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "power_GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-power_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "lomalkin_kicad_symbols_SolderPad"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderPad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderPad-lomalkin_kicad_symbols_0_1"
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderPad-lomalkin_kicad_symbols_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 43.18 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ad8d42b-1283-4a0c-b114-283d421df910")
+	)
+	(junction
+		(at 74.93 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddbf864c-5491-486d-88ec-f224a6c607d4")
+	)
+	(wire
+		(pts
+			(xy 45.72 26.67) (xy 40.64 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b130f56-a59f-4b16-9d74-cca135624eb3")
+	)
+	(wire
+		(pts
+			(xy 72.39 64.77) (xy 77.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1228c9db-f458-4bbd-b693-64ac98b8914c")
+	)
+	(wire
+		(pts
+			(xy 134.62 31.75) (xy 137.16 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c729d8-34da-47d0-9ec7-6904bff32b71")
+	)
+	(wire
+		(pts
+			(xy 40.64 36.83) (xy 45.72 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17724c7d-e8eb-4747-86f5-086490ccb580")
+	)
+	(wire
+		(pts
+			(xy 151.13 26.67) (xy 153.67 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196a746c-3190-456c-b4d8-c13781c8afac")
+	)
+	(wire
+		(pts
+			(xy 170.18 24.13) (xy 172.72 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f567214-715d-4755-a31c-ba8aaf120432")
+	)
+	(wire
+		(pts
+			(xy 110.49 34.29) (xy 107.95 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22955809-c154-4a2a-af87-e9ffbbdab69a")
+	)
+	(wire
+		(pts
+			(xy 43.18 54.61) (xy 40.64 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2602b745-4022-4e7e-ab3b-a17f9416a237")
+	)
+	(wire
+		(pts
+			(xy 74.93 34.29) (xy 72.39 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d36ac7f-7f16-4287-8386-a7a0acbcc64c")
+	)
+	(wire
+		(pts
+			(xy 134.62 29.21) (xy 137.16 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f48f655-dd7c-415a-a200-2104c353969f")
+	)
+	(wire
+		(pts
+			(xy 74.93 49.53) (xy 72.39 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f665d72-1a87-47fd-9293-174417fb884d")
+	)
+	(wire
+		(pts
+			(xy 110.49 29.21) (xy 107.95 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318267b5-2fa6-4815-8ee0-12b85de0b72a")
+	)
+	(wire
+		(pts
+			(xy 77.47 31.75) (xy 72.39 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320bbe33-cfa4-4b9d-8987-ca3451d21eff")
+	)
+	(wire
+		(pts
+			(xy 40.64 29.21) (xy 45.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33254f4b-502e-44c5-a61f-534a0d0d2f2c")
+	)
+	(wire
+		(pts
+			(xy 151.13 21.59) (xy 153.67 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35533bfe-0055-4828-bbe2-e2c6629d8cc0")
+	)
+	(wire
+		(pts
+			(xy 40.64 64.77) (xy 45.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9cb6e2-4265-4e4b-9a6e-69830502b5b3")
+	)
+	(wire
+		(pts
+			(xy 40.64 69.85) (xy 43.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b321ddd-8376-4550-918f-51e488a5be8a")
+	)
+	(wire
+		(pts
+			(xy 107.95 38.1) (xy 110.49 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4036f532-05fb-4067-b53b-ccc062b1c6a2")
+	)
+	(wire
+		(pts
+			(xy 40.64 24.13) (xy 43.18 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4245d9c0-0f37-4322-9cea-d96f04e1f1c3")
+	)
+	(wire
+		(pts
+			(xy 204.47 21.59) (xy 207.01 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438af8bd-1d7e-42b9-a07a-15690c221942")
+	)
+	(wire
+		(pts
+			(xy 187.96 24.13) (xy 190.5 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46095edd-37df-4218-9fac-f9b78c14aac7")
+	)
+	(wire
+		(pts
+			(xy 120.65 46.99) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b42220a-7d75-4686-bf32-e4caaf1ba592")
+	)
+	(wire
+		(pts
+			(xy 187.96 26.67) (xy 190.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebad3c2-046b-481a-9486-728131ba6c13")
+	)
+	(wire
+		(pts
+			(xy 123.19 49.53) (xy 120.65 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51615ccf-d968-47da-b471-b2397ca35e7d")
+	)
+	(wire
+		(pts
+			(xy 77.47 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfc170b-4860-4433-8863-ccf18c1279a2")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 72.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8b476b-581c-44e1-8290-035dd2c36f2c")
+	)
+	(wire
+		(pts
+			(xy 134.62 24.13) (xy 137.16 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e809d3-b7ab-4ded-b096-42a3d0255075")
+	)
+	(wire
+		(pts
+			(xy 151.13 29.21) (xy 153.67 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63881ab2-a570-4e4b-960c-912d49ab2621")
+	)
+	(wire
+		(pts
+			(xy 72.39 57.15) (xy 74.93 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a65a73-e3ca-4843-97dc-ca53947c1b2f")
+	)
+	(wire
+		(pts
+			(xy 170.18 29.21) (xy 172.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f10592-158a-440e-a130-b89046ced4e4")
+	)
+	(wire
+		(pts
+			(xy 187.96 29.21) (xy 190.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b9b467-4c55-470c-b93c-a96dc2aba6c6")
+	)
+	(wire
+		(pts
+			(xy 204.47 29.21) (xy 207.01 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a88e6fd-a612-4732-8da6-919ddcecbe59")
+	)
+	(wire
+		(pts
+			(xy 72.39 41.91) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8b9b2d-5d05-459b-b0bf-9071068e88b6")
+	)
+	(wire
+		(pts
+			(xy 74.93 69.85) (xy 74.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eaa2a4f-d9f3-4f87-955a-bcffc31856e7")
+	)
+	(wire
+		(pts
+			(xy 72.39 46.99) (xy 74.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714239e7-bb30-4737-95c0-0b21c5e30e5d")
+	)
+	(wire
+		(pts
+			(xy 45.72 31.75) (xy 40.64 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7144d63a-fba4-4cf1-9310-05336c3e2e79")
+	)
+	(wire
+		(pts
+			(xy 43.18 67.31) (xy 40.64 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73cccc1e-66f5-42ea-85a4-10b5dded9c9e")
+	)
+	(wire
+		(pts
+			(xy 43.18 59.69) (xy 40.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740ab401-8d9b-4b77-8093-92d23e3195e1")
+	)
+	(wire
+		(pts
+			(xy 77.47 26.67) (xy 72.39 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77283f84-5676-4199-aa67-d5c3efed9cf6")
+	)
+	(wire
+		(pts
+			(xy 40.64 46.99) (xy 43.18 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c37b56-bb21-4874-80d0-09796fa73dcc")
+	)
+	(wire
+		(pts
+			(xy 187.96 21.59) (xy 190.5 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7996b932-d08d-4a25-b3e6-6cd1f54d64a8")
+	)
+	(wire
+		(pts
+			(xy 45.72 69.85) (xy 43.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6bae48-0074-4551-80a0-2a8bff6be349")
+	)
+	(wire
+		(pts
+			(xy 77.47 39.37) (xy 72.39 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f211c11-1e9e-4c39-8fd4-f57ffac3aa11")
+	)
+	(wire
+		(pts
+			(xy 43.18 69.85) (xy 43.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803176cd-0e3f-486d-ac0d-2bcce6ee0943")
+	)
+	(wire
+		(pts
+			(xy 134.62 21.59) (xy 137.16 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80687ddc-c4af-42e5-beed-8e0027922102")
+	)
+	(wire
+		(pts
+			(xy 110.49 24.13) (xy 107.95 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ce4b10-b63b-4178-b77e-f07119dae91f")
+	)
+	(wire
+		(pts
+			(xy 204.47 31.75) (xy 207.01 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c60afd7-c382-4d96-8a4a-f304729ccc6f")
+	)
+	(wire
+		(pts
+			(xy 134.62 26.67) (xy 137.16 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d18233b-5165-47b3-9703-f994539ab14a")
+	)
+	(wire
+		(pts
+			(xy 204.47 26.67) (xy 207.01 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9410ceff-f395-4dc9-9aba-97851929b0f3")
+	)
+	(wire
+		(pts
+			(xy 107.95 21.59) (xy 110.49 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9567708a-cb2c-4793-9b6b-94910bef001a")
+	)
+	(wire
+		(pts
+			(xy 72.39 29.21) (xy 77.47 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96526f07-7c7b-442d-b1e5-1d8e0e741a0c")
+	)
+	(wire
+		(pts
+			(xy 123.19 54.61) (xy 120.65 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb672cd-6758-4b7f-ad01-a3d4a89766ac")
+	)
+	(wire
+		(pts
+			(xy 40.64 57.15) (xy 43.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42e4eb6-91ec-45c5-9545-95c7e58dae68")
+	)
+	(wire
+		(pts
+			(xy 170.18 26.67) (xy 172.72 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d0a486-71e9-4111-927c-46e63b99ca26")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a860a188-8c18-48b9-9b24-17c25801037b")
+	)
+	(wire
+		(pts
+			(xy 72.39 36.83) (xy 77.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0578de-5829-44fb-bacb-35d86ee90be6")
+	)
+	(wire
+		(pts
+			(xy 40.64 41.91) (xy 43.18 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4a1537-0390-4e74-b1fd-56270500d40f")
+	)
+	(wire
+		(pts
+			(xy 40.64 52.07) (xy 43.18 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2115873-61a5-4fb0-9b34-4a2dace91580")
+	)
+	(wire
+		(pts
+			(xy 45.72 62.23) (xy 40.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3863d23-50d8-4339-a15b-92e83289ae2a")
+	)
+	(wire
+		(pts
+			(xy 170.18 31.75) (xy 172.72 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b95c52-4496-4f69-902b-c6e8c10745e1")
+	)
+	(wire
+		(pts
+			(xy 107.95 31.75) (xy 110.49 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5700dc6-2fc0-4b08-92ed-5f14d2e5eb5e")
+	)
+	(wire
+		(pts
+			(xy 74.93 59.69) (xy 72.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9112e50-d443-4914-884c-1dbad9d40864")
+	)
+	(wire
+		(pts
+			(xy 123.19 57.15) (xy 120.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb47974-ae09-4c5c-89c3-0bd7b0976f49")
+	)
+	(wire
+		(pts
+			(xy 72.39 52.07) (xy 74.93 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4094bdc-0b05-48d0-bd22-a4ec650f3f17")
+	)
+	(wire
+		(pts
+			(xy 45.72 39.37) (xy 40.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50e2901-f19f-4d38-90af-fe595cf62bd2")
+	)
+	(wire
+		(pts
+			(xy 74.93 54.61) (xy 72.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c866f8c9-850a-4b47-a193-669f0a5c8f43")
+	)
+	(wire
+		(pts
+			(xy 170.18 21.59) (xy 172.72 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedd20cc-7d81-400d-8c7a-ff964145f129")
+	)
+	(wire
+		(pts
+			(xy 43.18 49.53) (xy 40.64 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9cd72d-c35d-417c-9f35-2e0da4888a87")
+	)
+	(wire
+		(pts
+			(xy 74.93 67.31) (xy 72.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cb4ef3-9143-4900-a339-66e6c4c00359")
+	)
+	(wire
+		(pts
+			(xy 204.47 24.13) (xy 207.01 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11d5d05-aef1-43a1-a845-9934b18bca6a")
+	)
+	(wire
+		(pts
+			(xy 72.39 24.13) (xy 74.93 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1fb16e9-00c1-495b-95c2-8b3c3bb56c0b")
+	)
+	(wire
+		(pts
+			(xy 151.13 31.75) (xy 153.67 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2771b40-e01c-4976-ac8f-6e8ecdcacbca")
+	)
+	(wire
+		(pts
+			(xy 120.65 52.07) (xy 123.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67a1d07-874e-4be0-86b3-381521b9e947")
+	)
+	(wire
+		(pts
+			(xy 43.18 34.29) (xy 40.64 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4218a53-a168-4092-96ce-9779a7ae5aa3")
+	)
+	(wire
+		(pts
+			(xy 110.49 40.64) (xy 107.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e896a179-045f-4987-9a1b-b1751887e724")
+	)
+	(wire
+		(pts
+			(xy 151.13 24.13) (xy 153.67 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16b4d89-2232-41e9-8ac5-9be646bb3181")
+	)
+	(wire
+		(pts
+			(xy 187.96 31.75) (xy 190.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4443a58-8ae5-4214-8281-20fa845a73dd")
+	)
+	(wire
+		(pts
+			(xy 107.95 26.67) (xy 110.49 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2d9a3f-65d4-4c1e-967f-21d88a051b8c")
+	)
+	(text "Макетка"
+		(exclude_from_sim no)
+		(at 101.6 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d97327a1-7243-4ea8-9588-622d87655b3d")
+	)
+	(label "PA4"
+		(at 110.49 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06cae7f9-0b53-4aec-bd91-8100b3192415")
+	)
+	(label "3.3V"
+		(at 153.67 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "085dfc16-d3cf-4ee6-8761-129c7ee97b8f")
+	)
+	(label "GND"
+		(at 172.72 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ad9df8b-dd42-43cd-af00-653b269fcb91")
+	)
+	(label "SWCLK"
+		(at 123.19 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f0207e7-44dd-4de9-8cba-80058b148d87")
+	)
+	(label "UART_TX"
+		(at 43.18 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1078b619-5a20-4166-81c6-b896513c4455")
+	)
+	(label "PC0"
+		(at 45.72 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f717480-01d1-4877-9f4d-8642239ca0c4")
+	)
+	(label "GND"
+		(at 74.93 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fe02e90-cbf8-429f-acdf-e460b1a003d0")
+	)
+	(label "SWO"
+		(at 110.49 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22a4191e-a67c-4f3c-8267-98ff89754b1d")
+	)
+	(label "PA6"
+		(at 77.47 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "275c2914-19a9-420b-ba59-b382d11a29e0")
+	)
+	(label "UART_TX"
+		(at 74.93 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b192cd3-87bc-45cc-bc0d-a466749e998e")
+	)
+	(label "3.3V"
+		(at 153.67 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33244caf-ffec-4c72-a3c7-af73b276bedc")
+	)
+	(label "GND"
+		(at 207.01 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b2eea12-9aa9-42f9-86f9-fe8b9d4271e8")
+	)
+	(label "PC0"
+		(at 77.47 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40d73c53-80dd-44b6-a78b-416399f209ee")
+	)
+	(label "PA7"
+		(at 110.49 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41e3e6e0-d4d1-4f44-a846-ea1a76dc04ab")
+	)
+	(label "GND"
+		(at 190.5 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "442942c8-ea7c-48b4-8891-8d308535c789")
+	)
+	(label "5V"
+		(at 137.16 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "445579d3-abac-4185-bc3e-1e9575fa0385")
+	)
+	(label "PC1"
+		(at 110.49 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45c5d0bd-65f5-4567-98b5-47040ce1e2aa")
+	)
+	(label "GND"
+		(at 43.18 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47b550cc-f22f-4708-b2da-5665bedf7876")
+	)
+	(label "3.3V"
+		(at 153.67 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ec35fe4-b28e-4216-830e-d22fb7534f03")
+	)
+	(label "PC3"
+		(at 45.72 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4eded61c-1212-4b36-bec9-b7c41ac06614")
+	)
+	(label "GND"
+		(at 43.18 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55040b10-542b-422c-8785-79649e6f6a8f")
+	)
+	(label "UART_TX"
+		(at 123.19 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56d4cd71-45a6-4876-84a5-324aa03f6304")
+	)
+	(label "PA6"
+		(at 110.49 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a28333a-1514-4af6-9d97-561c9b39f736")
+	)
+	(label "PC0"
+		(at 110.49 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bfc122a-8714-4f6d-8a76-76e8fe6647a1")
+	)
+	(label "GND"
+		(at 190.5 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61d5aa66-e22d-4b5f-8d01-42e30a7a5aad")
+	)
+	(label "GND"
+		(at 190.5 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65719401-c763-4198-878f-872a0b67596b")
+	)
+	(label "SWO"
+		(at 43.18 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68fd5c25-4010-472d-87c3-8e52e95af449")
+	)
+	(label "GND"
+		(at 77.47 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69d37dcb-701d-4533-ad7b-9de887953d9d")
+	)
+	(label "GND"
+		(at 172.72 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cbc0722-f1cf-4b14-bfdd-469be85cbbd6")
+	)
+	(label "SWDIO"
+		(at 123.19 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cf1c593-c39a-47e0-873f-cbe228b8cd99")
+	)
+	(label "PA7"
+		(at 77.47 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d1188ee-87f1-4fa2-a88d-b52c67fd39ba")
+	)
+	(label "SWCLK"
+		(at 74.93 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fa4527a-fbff-444b-b3af-61f2fa1601f2")
+	)
+	(label "SWDIO"
+		(at 74.93 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71b7829b-720f-4520-ae88-cd57a551e0b5")
+	)
+	(label "PC1"
+		(at 77.47 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73c3bef8-8573-4010-b922-51cd13b1448c")
+	)
+	(label "PA4"
+		(at 77.47 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "769b7592-f3e1-4f61-b566-4d7071836b34")
+	)
+	(label "3.3V"
+		(at 153.67 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ba6b05b-c3c7-4420-b4da-cee07d275337")
+	)
+	(label "PB14"
+		(at 43.18 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d87e7d3-0a1d-4398-9766-aa4db324d70b")
+	)
+	(label "5V"
+		(at 43.18 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e5a02cb-9ccf-4b37-a539-db8586eaa5c1")
+	)
+	(label "5V"
+		(at 137.16 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8437f843-13d9-48c3-a3d7-e4126d8f40b3")
+	)
+	(label "PB2"
+		(at 77.47 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87023eca-cd53-4b0a-ab79-2ad488a5716a")
+	)
+	(label "PC3"
+		(at 77.47 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88d03934-836d-4b60-a7d9-f1bdec5fdda2")
+	)
+	(label "5V"
+		(at 74.93 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ac55c7a-9f73-4342-b841-325e213dc29f")
+	)
+	(label "GND"
+		(at 45.72 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cd4af57-a550-4576-a540-c6e8fdd24390")
+	)
+	(label "SWO"
+		(at 74.93 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95704175-0065-4eab-b448-fd4e722ccd93")
+	)
+	(label "GND"
+		(at 207.01 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95809a61-bbaa-490e-9221-bb045d9327bd")
+	)
+	(label "UART_RX"
+		(at 74.93 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "998a754a-6ac3-4ed3-a779-642bb6df4d16")
+	)
+	(label "GND"
+		(at 172.72 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cbbedc2-4756-4151-86d5-494e42f87583")
+	)
+	(label "SWCLK"
+		(at 43.18 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9de06ce2-ba85-48e8-80f5-56b5d8df19d3")
+	)
+	(label "GND"
+		(at 207.01 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0f533e1-edb5-4d76-ba87-2b800b85b965")
+	)
+	(label "GND"
+		(at 172.72 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a51bc3cf-c821-49df-ba11-62ad2ed331d8")
+	)
+	(label "3.3V"
+		(at 43.18 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a70e6731-7fae-4199-9a18-5792e119aff9")
+	)
+	(label "GND"
+		(at 172.72 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a80c8f94-e268-4861-9dfb-8ff79d376438")
+	)
+	(label "5V"
+		(at 137.16 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ade7d5b9-4ee7-4e98-beed-5c7bf66be6f7")
+	)
+	(label "5V"
+		(at 137.16 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0e00153-b51c-4ba3-b14a-56ae1fe5ee59")
+	)
+	(label "PC1"
+		(at 45.72 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b342a92e-b4ce-4a0f-b153-9f6dabf90342")
+	)
+	(label "UART_RX"
+		(at 43.18 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b365f9ae-e66f-4aee-a753-68109bd4b957")
+	)
+	(label "PA7"
+		(at 45.72 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6189d4d-75bb-40f9-971c-49648efd8564")
+	)
+	(label "PB2"
+		(at 110.49 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c12f3c6a-003a-41da-8bff-25cac62566ca")
+	)
+	(label "5V"
+		(at 137.16 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1c6f6eb-ce37-456d-bfb8-b1490ff55535")
+	)
+	(label "PA4"
+		(at 45.72 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4e67c48-a482-4b5f-b77a-ec5939a965e3")
+	)
+	(label "SWDIO"
+		(at 43.18 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd44f679-f4cf-47f6-8774-72821488315f")
+	)
+	(label "GND"
+		(at 207.01 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd54c27c-583a-47fd-baac-e9d10b2d1e74")
+	)
+	(label "3.3V"
+		(at 153.67 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf075d38-1257-4c34-a04b-6142878411ec")
+	)
+	(label "PA6"
+		(at 45.72 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf2f063c-0a5e-4498-b8dc-d16dfe97205b")
+	)
+	(label "PB2"
+		(at 45.72 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d15c742b-1fa3-4dd0-bbec-076d7371cd0e")
+	)
+	(label "PB14"
+		(at 74.93 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3242aac-3eac-40e8-a41c-98fef364ddd6")
+	)
+	(label "UART_RX"
+		(at 123.19 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd98d6a6-eadc-4d9a-863e-dac30b0394d4")
+	)
+	(label "GND"
+		(at 190.5 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deca9de4-9630-4942-9b6c-2bf2898e606a")
+	)
+	(label "PC3"
+		(at 110.49 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3aba4e4-6984-4c58-81a3-48dec6a2c7b7")
+	)
+	(label "GND"
+		(at 190.5 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef06e35b-7138-4b8f-9843-45a45c2ce6ef")
+	)
+	(label "PB14"
+		(at 123.19 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1e2f704-8f67-49cd-893d-3de1966062b4")
+	)
+	(label "3.3V"
+		(at 74.93 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f34c75c5-e40f-4277-829d-bbc760f4d2a7")
+	)
+	(label "GND"
+		(at 207.01 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3c586f2-81fc-4e68-8df3-ab4e8c8417c9")
+	)
+	(label "GND"
+		(at 74.93 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f533b230-5a51-4616-bdf9-54755d092161")
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 106.68 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fe7b9e9")
+		(property "Reference" "X1"
+			(at 104.9528 58.3692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa34f59a-0a68-4404-afa9-e0b38568a4d5")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:FlipperZero-lomalkin_kicad_symbols")
+		(at 30.48 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fe856cf")
+		(property "Reference" "U1"
+			(at 31.2674 17.399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FlipperZero"
+			(at 31.2674 19.7104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:FlipperZero"
+			(at 29.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "099ba8e7-605a-4b57-adae-88e0d8a13008")
+		)
+		(pin "8"
+			(uuid "8f5a664e-7d76-4fc2-88e3-b36fa9ad054b")
+		)
+		(pin "9"
+			(uuid "5c2cfbb6-545f-4caf-adf2-31ca01cce98d")
+		)
+		(pin "12"
+			(uuid "67102c71-b055-4724-b555-3e7ad0747f0b")
+		)
+		(pin "10"
+			(uuid "57cd20db-44c1-4aed-87ca-d5190bb11d5f")
+		)
+		(pin "11"
+			(uuid "5ef4f2ad-589e-4292-9d5f-0bdf9665559c")
+		)
+		(pin "1"
+			(uuid "9c4256d0-7460-453d-be34-d8d3b0d74636")
+		)
+		(pin "17"
+			(uuid "6aa13d2b-48d5-49fa-9dcd-953e804e49a5")
+		)
+		(pin "3"
+			(uuid "8de22344-c7c5-4045-9467-306959d3d29c")
+		)
+		(pin "15"
+			(uuid "528b6052-19cf-4cca-9104-1ac95d367534")
+		)
+		(pin "4"
+			(uuid "42ff3e0f-86c5-45fe-b88d-b0f72362b71c")
+		)
+		(pin "5"
+			(uuid "ef73b05f-fcec-499b-a9eb-ed932a21caf6")
+		)
+		(pin "6"
+			(uuid "6b6fb73a-7538-4115-8527-8775ca7ed680")
+		)
+		(pin "7"
+			(uuid "8d0ed52c-30de-45f4-a9e9-7d2eff61596c")
+		)
+		(pin "2"
+			(uuid "bd8b930d-57d6-4682-a530-1fa0a1cb4699")
+		)
+		(pin "18"
+			(uuid "83811df3-78fd-4657-9bce-0cb921160ccc")
+		)
+		(pin "16"
+			(uuid "7c674719-57bb-40a7-a86f-ca727fbf3837")
+		)
+		(pin "14"
+			(uuid "9194e028-a335-4013-ab4c-4963b263bc84")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:GND-power")
+		(at 43.18 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fe86052")
+		(property "Reference" "#PWR0101"
+			(at 43.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.307 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d44f88c1-50f7-489f-ae0d-a11cc9353997")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 120.65 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fed9a41")
+		(property "Reference" "X20"
+			(at 114.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd0b3ff8-8337-4d07-aa7b-867fd0930aa5")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 120.65 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fed9ab3")
+		(property "Reference" "X26"
+			(at 114.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79bed0fb-d89e-4a16-aa3f-def71225340b")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 120.65 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fed9b09")
+		(property "Reference" "X32"
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e414ea3b-263e-4c2f-826e-d891bdfb691d")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 120.65 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fed9b5d")
+		(property "Reference" "X33"
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87c8c8e1-c3f5-4098-b973-de109d1958fb")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 120.65 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fee15d0")
+		(property "Reference" "X34"
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 120.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0340e5c-e761-4da2-91f7-c14b5b16bc5c")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 204.47 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fee176d")
+		(property "Reference" "X35"
+			(at 198.12 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 204.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae26eed1-b476-4e62-9675-4e51770392e3")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 204.47 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fee1775")
+		(property "Reference" "X36"
+			(at 198.12 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 203.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 204.47 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6c1423a-80d5-44f1-9094-03d244850ba4")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 204.47 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fee177d")
+		(property "Reference" "X37"
+			(at 198.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 204.47 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c88fddec-a6a8-49ec-aee0-00f4f7068b62")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 204.47 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fee1785")
+		(property "Reference" "X38"
+			(at 198.12 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 203.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 204.47 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e59ca611-1784-473f-940f-0071fa4b447e")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 204.47 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fee178d")
+		(property "Reference" "X39"
+			(at 198.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 203.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1bfb7c7-8c9e-4b41-a059-42212d162ddf")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:FlipperZero-lomalkin_kicad_symbols")
+		(at 62.23 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff1bc21")
+		(property "Reference" "U2"
+			(at 63.0174 17.399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FlipperZero"
+			(at 63.0174 19.7104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:FlipperZero"
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "c7985433-2880-43a9-ab93-7f0ca9579c29")
+		)
+		(pin "7"
+			(uuid "e0f763be-6699-44c5-b484-6b8036de1c3d")
+		)
+		(pin "9"
+			(uuid "6638da62-d973-4a36-b9a6-16603f5683f2")
+		)
+		(pin "6"
+			(uuid "2959aa03-5b95-4716-968b-5b43fb490787")
+		)
+		(pin "5"
+			(uuid "03aedda9-51cc-497f-a37d-048cc604337c")
+		)
+		(pin "13"
+			(uuid "3a08bcca-e1fc-4f9e-9081-03cd38044bdf")
+		)
+		(pin "11"
+			(uuid "bda4e835-cbc1-4910-8a19-6f65efbc9886")
+		)
+		(pin "18"
+			(uuid "d3905b28-e202-462d-bda4-9d0e5723f98c")
+		)
+		(pin "2"
+			(uuid "89d1b3a4-770b-4ab9-bcfb-8a33131f2d22")
+		)
+		(pin "3"
+			(uuid "b5de13b7-db73-4aa7-a582-4206fcab5735")
+		)
+		(pin "4"
+			(uuid "3d1e4595-b3e4-46de-bdda-d4543ea3a1c1")
+		)
+		(pin "15"
+			(uuid "0ac531d8-adf5-45c9-8789-5e0aefc1214e")
+		)
+		(pin "17"
+			(uuid "2c94ae45-a6c8-421d-9753-637c4771f9b4")
+		)
+		(pin "12"
+			(uuid "14f208e1-c305-4cdd-bc59-0d2d42e4ebbe")
+		)
+		(pin "16"
+			(uuid "ededa885-157a-4d6a-90e6-50b6824f25b1")
+		)
+		(pin "14"
+			(uuid "f0fca8a3-1213-43ed-95e3-6b0019a464ad")
+		)
+		(pin "1"
+			(uuid "71dcb43c-c505-4e6c-b8f9-2d1c66a00ccb")
+		)
+		(pin "10"
+			(uuid "8b1e0ce8-c1bf-4124-ba5b-8e9fd19f87d7")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:GND-power")
+		(at 74.93 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff1bc28")
+		(property "Reference" "#PWR0109"
+			(at 74.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 75.057 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15507d7f-c1d0-4e2b-b2d0-2a18094659c2")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 107.95 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff34920")
+		(property "Reference" "X2"
+			(at 101.6 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 106.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 107.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98a966f6-c3c3-410f-975a-191786af6491")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 107.95 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff34b3b")
+		(property "Reference" "X3"
+			(at 101.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 107.95 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "453e1bc0-4ba9-4652-a818-6786385c8c97")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 107.95 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff34b9b")
+		(property "Reference" "X4"
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 107.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26c6b723-f4f2-4df5-82b9-b69646c175d1")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 107.95 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff34bfd")
+		(property "Reference" "X5"
+			(at 101.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 106.68 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 107.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9a435b0-fb30-40f2-9997-ec7eebda484d")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 107.95 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff34c5d")
+		(property "Reference" "X6"
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "861b728c-ae2a-42b7-97e9-e9202f2866dd")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 107.95 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff34cbf")
+		(property "Reference" "X7"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 107.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4e5d2d0-61a1-455c-bd52-5488bb42a2b9")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 107.95 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff34d23")
+		(property "Reference" "X8"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 106.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4919843-5afb-4a07-906a-5d9be2ff53a7")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 107.95 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff34d8f")
+		(property "Reference" "X9"
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 106.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea33c936-87ac-4820-bf34-2f0d8ae6213b")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 134.62 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff633c7")
+		(property "Reference" "X10"
+			(at 128.27 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 133.35 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf692511-2145-4de5-b519-7d0f90804edc")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 134.62 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff690bf")
+		(property "Reference" "X11"
+			(at 128.27 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 133.35 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 134.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef39ccc4-2b7b-453c-b11a-5ee97368b7c4")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 134.62 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff6eaee")
+		(property "Reference" "X12"
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 134.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcca8066-92c2-40aa-80c9-83ff2d5f972d")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 134.62 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff7468c")
+		(property "Reference" "X13"
+			(at 128.27 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 133.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 134.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce2c5da5-8aa8-4ea0-bfc0-bc5098109d42")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 134.62 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff7a39c")
+		(property "Reference" "X14"
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 133.35 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 134.62 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0168f56a-85fb-4ca6-92c2-a4894a996e0c")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 151.13 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff80864")
+		(property "Reference" "X15"
+			(at 144.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 149.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 151.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a95edb9-5f9c-400d-b117-5457e587c44b")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 151.13 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff8086d")
+		(property "Reference" "X16"
+			(at 144.78 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 151.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfc78461-7d84-4c08-889a-c65c5dec5045")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 151.13 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff80876")
+		(property "Reference" "X17"
+			(at 144.78 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 149.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 151.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00f85fbc-d722-4fd5-b184-05520bb19759")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 151.13 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff8087f")
+		(property "Reference" "X18"
+			(at 144.78 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 149.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 151.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d90c1d21-46ae-487c-976c-2d1c8e7e217b")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 151.13 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff80888")
+		(property "Reference" "X19"
+			(at 144.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 149.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 151.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9c7d2d9-acd4-4c23-8c22-556d31f924f3")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 170.18 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff94a52")
+		(property "Reference" "X21"
+			(at 163.83 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 168.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 170.18 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5f15fe4-02ba-446b-a64d-34513abbcf2c")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 170.18 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff94a5b")
+		(property "Reference" "X22"
+			(at 163.83 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 168.91 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 170.18 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe8e06a3-d5f8-430e-9f04-24d65bed5267")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 170.18 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff94a64")
+		(property "Reference" "X23"
+			(at 163.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 170.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4a9d007-9535-452e-a325-ddc2adeee858")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 170.18 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff94a6d")
+		(property "Reference" "X24"
+			(at 163.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 168.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 170.18 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c797ee9-a31a-4914-bbcd-694a4c79d0f3")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 170.18 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ff94a76")
+		(property "Reference" "X25"
+			(at 163.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 168.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 170.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af9f9d87-e8cc-4145-9d7b-26449c616f72")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 187.96 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ffaa54c")
+		(property "Reference" "X27"
+			(at 181.61 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 186.69 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 187.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9941fa23-9378-4156-9f0b-7321166c07b6")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 187.96 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ffaa554")
+		(property "Reference" "X28"
+			(at 181.61 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 186.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 187.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b78f8b54-de62-4615-8f6a-f0025edb78b9")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 187.96 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ffaa55c")
+		(property "Reference" "X29"
+			(at 181.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 186.69 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 187.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7861abee-3dc1-405a-aaad-45922ee570e4")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 187.96 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ffaa564")
+		(property "Reference" "X30"
+			(at 181.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 187.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0ad893d-0c06-494b-9edc-b7707572ccb2")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipper-zen-rescue:SolderPad-lomalkin_kicad_symbols")
+		(at 187.96 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ffaa56c")
+		(property "Reference" "X31"
+			(at 181.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderPad"
+			(at 186.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lomalkin_kicad_footprints:Flipper-SolderPad"
+			(at 187.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aff1440-a659-419e-822a-c77b5ed04068")
+		)
+		(instances
+			(project "flipper-zen"
+				(path "/d550d0b5-85c6-4690-b276-37dbc5befd90"
+					(reference "X31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
